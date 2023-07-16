@@ -1,0 +1,76 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #1f193b;
+    color: #ecebf2;
+    height: 100vh;
+    position: relative;
+  }
+  
+section {
+    background-color: #1F2B2D;
+    color: rgb(88, 25, 16);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    padding: 40vh;
+    gap: 40px;
+}
+
+/* .cifrando {
+    display: flex;
+    align-items: center;
+    margin: 100vh;
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+} */
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    border: 2px solid;
+    width: 378px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    color: rgb(88, 25, 16);
+    background-color:#8e9797;
+    font-family: "Montserrat Alternates", sans-serif;
+    transition: all 700ms;
+}
+    
+.botao:hover {
+    color: bisque;
+}
+
+.navegaçao {
+    padding: 2% 0% 0% 15%;
+}
+
+.navegaçaoMenu {
+    display: flex;
+    gap: 80px;
+}
+
+.codif {
+    display: flex;
+    gap: 40px;
+    
+}
+
+
+
+
