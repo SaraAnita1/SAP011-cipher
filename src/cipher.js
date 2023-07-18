@@ -40,8 +40,24 @@ function cifrarMensagem() {
     //   charCode = ((charCode - 97 + 2) % 26) + 97;
     // }
 
+    // resolvi fazer com o alfabeto todo para incluir palavras com acento na codificação
     charCode = (charCode + 2) % 255
     mensagemCifrada += String.fromCharCode(charCode);
   }
   document.getElementById("mensagemCifrada").textContent = mensagemCifrada;
 }
+
+// document.getElementById("btnDecifrar").addEventListener("click", descifrarMensagem);
+
+// function descifrarMensagem() {
+//   const decodificando = document.getElementById("decodificando").value;
+//   let mensagemDescifrada = "";
+  
+//   for (let i = 0; i < decodificando.length; i++) {
+//     let charCode = decodificando.charCodeAt(i);
+//     charCode = (charCode - 2) % 255;
+//     mensagemDescifrada += String.fromCharCode(charCode);
+//   }
+  
+//   document.getElementById("mensagemDecifrada").textContent = mensagemDescifrada;
+// }
