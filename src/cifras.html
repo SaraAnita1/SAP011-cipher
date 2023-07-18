@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cifrando Mensagens</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet"/>
 </head>
 <body>
     <section>
     <header class="navegaçao" >
-        <nav class="navegaçaoMenu" >
             <a class="navegaçaoMenuVoltar" href="index.html">
             <img src="assets/arrow-left.svg" alt="Botão de Voltar">
             </a>
-        </nav>
     </header>
     <div class="codif" id="codif">
-        <textarea name="" id="mensagem" cols="30" rows="10"></textarea>
+        <textarea name="" id="mensagem" cols="30" rows="10" required></textarea>
         <button id="btnCifrar">Codificar</button>
         <p id="mensagemCifrada"></p>
-    </div>
+    </div> <br>
+    <div class="decodif" id="decodif">
+        <textarea name="" id="decodificando" cols="30" rows="10"></textarea>
+        <button id="btnDecifrar">Descodificar</button>
+        <p id="mensagemDescifrada"></p>
     <footer>
         <p>&copy; SaraAnita</p>
     </footer>

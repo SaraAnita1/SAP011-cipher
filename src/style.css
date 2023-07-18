@@ -3,25 +3,26 @@ margin: 0;
 padding: 0;
 }
 
+input, button, textarea {
+    font-family: 'MedievalSharp', cursive;
+}
+
 body {
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: #1f193b;
-    color: #ecebf2;
+    background-color: #ba9d81;
+    color: #501d1d;
     height: 100vh;
     position: relative;
+    font-family: 'MedievalSharp', cursive;
   }
   
 section {
-    background-color: #1F2B2D;
-    color: rgb(88, 25, 16);
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 20vh;
     padding: 40vh;
     gap: 40px;
-    
 }
 
 /* .cifrando {
@@ -47,29 +48,35 @@ section {
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
-    color: rgb(88, 25, 16);
-    background-color:#8e9797;
+    color: rgb(62, 21, 15);
+    background-color:#f2e6dbd0;
     font-family: "Montserrat Alternates", sans-serif;
     transition: all 700ms;
+    font-family: 'MedievalSharp', cursive;
 }
     
 .botao:hover {
-    color: bisque;
+    color: rgb(177, 52, 36);
 }
 
 .navegaçao {
     padding: 2% 0% 0% 15%;
 }
 
-.navegaçaoMenu {
+.navegaçaoMenuVoltar {
     display: flex;
     gap: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
 }
+
+
 
 .codif {
     display: flex;
     gap: 40px;
-    
 }
 
 
