@@ -1,3 +1,5 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
+document.getElementById("btnCifrar").addEventListener("click", cipher.encode);
+document.getElementById("btnDecifrar").addEventListener("click", cipher.decode);
+

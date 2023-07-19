@@ -16,19 +16,21 @@
             <img src="assets/arrow-left.svg" alt="Botão de Voltar">
             </a>
     </header>
-    <div class="codif" id="codif">
-        <textarea name="" id="mensagem" cols="30" rows="10" required></textarea>
+    <div class="codif">
+        <textarea id="mensagem" cols="30" rows="10" required></textarea>
         <button id="btnCifrar">Codificar</button>
         <p id="mensagemCifrada"></p>
     </div> <br>
-    <div class="decodif" id="decodif">
-        <textarea name="" id="decodificando" cols="30" rows="10"></textarea>
+    <div class="codif">
+        <textarea id="decodificando" cols="30" rows="10"></textarea>
         <button id="btnDecifrar">Descodificar</button>
         <p id="mensagemDescifrada"></p>
+    </div>
     <footer>
         <p>&copy; SaraAnita</p>
     </footer>
     </section>
-    <script src="cipher.js"></script>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="cipher.js"></script>
 </body>
 </html>
