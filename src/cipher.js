@@ -1,6 +1,6 @@
 const cipher = {
-  encode:() => {
-    const mensagem = document.getElementById("mensagem").value;
+  encode:(mensagem) => {
+    
     let mensagemInserida = "";
   
     for (let i = 0; i < mensagem.length; i++) {
@@ -21,6 +21,7 @@ const cipher = {
       // }
   
       // resolvi fazer com o alfabeto todo para incluir palavras com acento na codificação
+      //pesquisar typeof / const mensagem = document.getElementById("mensagem").value;
       charCode = (charCode + 2) % 255
       mensagemInserida += String.fromCharCode(charCode);
     }
