@@ -23,6 +23,7 @@ describe('cipher', () => {
       expect(() => cipher.encode(0)).toThrow(TypeError);
       expect(() => cipher.encode(null, [])).toThrow(TypeError);
       expect(() => cipher.encode(0, 0)).toThrow(TypeError);
+      expect(() => cipher.encode(5, 'Ç1Í')).toThrow(TypeError);
     });
 
     it('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33', () => {
@@ -69,6 +70,7 @@ describe('cipher', () => {
       expect(() => cipher.decode(0)).toThrow(TypeError);
       expect(() => cipher.decode(null, [])).toThrow(TypeError);
       expect(() => cipher.decode(0, 0)).toThrow(TypeError);
+      expect(() => cipher.decode(4, 'ÇÍÝ')).toThrow(TypeError);
     });
 
     it('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
