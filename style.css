@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+input, button, textarea {
+    font-family: 'MedievalSharp', cursive;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #ba9d81;
+    color: #501d1d;
+    height: 100vh;
+    position: relative;
+    font-family: 'MedievalSharp', cursive;
+  }
+  
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40vh;
+    gap: 40px;
+}
+
+/* .cifrando {
+    display: flex;
+    align-items: center;
+    margin: 100vh;
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+} */
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    border: 2px solid;
+    width: 378px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    color: rgb(62, 21, 15);
+    background-color:#f2e6dbd0;
+    font-family: "Montserrat Alternates", sans-serif;
+    transition: all 700ms;
+    font-family: 'MedievalSharp', cursive;
+}
+    
+.botao:hover {
+    color: rgb(177, 52, 36);
+}
+
+.navegaçao {
+    padding: 2% 0% 0% 15%;
+}
+
+.navegaçaoMenuVoltar {
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+
+
+.codif {
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
