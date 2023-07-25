@@ -16,18 +16,22 @@
             <img src="assets/arrow-left.svg" alt="Botão de Voltar">
             </a>
     </header>
-    <div class="codif">
+    <form class="codif" id="cifrar">
         <textarea id="mensagem" cols="30" rows="10" required></textarea>
-        <button id="btnCifrar">Codificar</button>
+        <button type="submit">Codificar</button>
         <p id="mensagemCifrada"></p>
-    </div> <br>
-    <div class="codif">
-        <textarea id="decodificando" cols="30" rows="10"></textarea>
-        <button id="btnDecifrar">Descodificar</button>
+    </form> <br>
+    <form class="codif" id="decifrar">
+        <textarea id="decodificando" cols="30" rows="10" required></textarea>
+        <button type="submit" >Descodificar</button>
         <p id="mensagemDescifrada"></p>
+    </form>
+    <div>
+    <label for="deslocamento">Deslocamento:</label>
+    <input type="number" id="deslocamento" min="1" step="1" value="2">
     </div>
     <footer>
-        <p>&copy; SaraAnita</p>
+        <p>&copy; SaraAnita/LaboratoriaSap011</p>
     </footer>
     </section>
     <script type="module" src="index.js"></script>
