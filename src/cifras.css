@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button,
+a {
+  font-family: "MedievalSharp", cursive;
+  color: #bb7212;
+}
+
+body {
+  height: 100vh;
+  background-image: url(assets/Painted_Table_HOTD.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.navegaçaoMenuVoltar {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-around;
+}
+
+textarea {
+  border-radius: 8px;
+  border-color: #e47d1e;
+  background-color: #e0d9d2;
+}
+
+.codif {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+#decifrar {
+  display: none;
+  align-items: center;
+  gap: 10px;
+}
+
+.gifContainer {
+  display: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}

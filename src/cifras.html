@@ -4,36 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cifrando Mensagens</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="cifras.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet"/>
+
 </head>
 <body>
-    <section>
+  
     <header class="navegaçao" >
-            <a class="navegaçaoMenuVoltar" href="index.html">
+        <a class="navegaçaoMenuVoltar" href="index.html">
             <img src="assets/arrow-left.svg" alt="Botão de Voltar">
-            </a>
+        </a>
     </header>
-    <form class="codif" id="cifrar">
-        <textarea id="mensagem" cols="30" rows="10" required></textarea>
+
+    <form id="cifrar">
+        <textarea id="mensagem" cols="30" rows="10" required></textarea> <br>
         <button type="submit">Codificar</button>
         <p id="mensagemCifrada"></p>
-    </form> <br>
+    </form>
+    
+    <label for="deslocamento">Deslocamento:</label>
+    <input type="number" id="deslocamento" min="1" step="1" value="2">
+    
+    <button id="botaoMostrar">Deseja Decifrar?</button>
+
+    <div class="gifContainer" id="caixaDoGif">
+        <img src="assets/aiPnrv.gif" alt="Gif animado de corvo">
+    </div>
+    
     <form class="codif" id="decifrar">
         <textarea id="decodificando" cols="30" rows="10" required></textarea>
         <button type="submit" >Descodificar</button>
         <p id="mensagemDescifrada"></p>
     </form>
-    <div>
-    <label for="deslocamento">Deslocamento:</label>
-    <input type="number" id="deslocamento" min="1" step="1" value="2">
-    </div>
+
     <footer>
         <p>&copy; SaraAnita/LaboratoriaSap011</p>
     </footer>
-    </section>
+    
+    
     <script type="module" src="index.js"></script>
     <script type="module" src="cipher.js"></script>
 </body>

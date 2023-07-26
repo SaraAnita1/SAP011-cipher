@@ -28,3 +28,25 @@ function pegarMensagemDec(){
     alert('Erro ao decodificar' + error.message)
   }
 }
+
+const elementoOculto = document.getElementById("decifrar");
+const botaoMostrar = document.getElementById("botaoMostrar");
+const gifContainer = document.getElementById("caixaDoGif")
+
+botaoMostrar.addEventListener("click", function(){
+  //exibir o gif
+  gifContainer.style.display = "block";
+  botaoMostrar.style.display = "none";
+
+  const tempoExibiçãoGif = 3000;
+
+  setTimeout(function(){
+
+    gifContainer.style.display = "none";
+    elementoOculto.style.display = "block";
+
+    botaoMostrar.scrollIntoView({ behavior: "smooth" }); 
+  }, tempoExibiçãoGif);
+  
+});
+
