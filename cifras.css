@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button,
+textarea,
+label,
+a {
+  font-family: "MedievalSharp", cursive;
+  color: #bb7212;
+}
+
+body {
+  height: 100vh;
+  background-image: url(assets/Painted_Table_HOTD.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+}
+
+.navegacao a img {
+  width: 40px;
+}
+
+label {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+#deslocamento{
+  margin-bottom: 80px;
+  background-color: #cab293f5;
+  color: #000;
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 6px 8px;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 8px;
+  min-width: 70px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+textarea {
+  width: 600px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #a18054f5;
+  color: #0a0804;
+  font-size: 30px;
+  padding: 8px;
+  border: 2px solid #000;
+} 
+
+button{
+  font-size: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    background: none;
+    border: 4px solid #bb7212;
+    border-radius: 8px;
+    transition: all 700ms;
+}
+
+button:hover{
+  color: rgb(190, 18, 18);
+  border-color: rgb(190, 18, 18);
+}
+
+form p{
+  color: red;
+  font-size: 28px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.oculto{
+  display: none;
+}
