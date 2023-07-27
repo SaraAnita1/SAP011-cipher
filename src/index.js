@@ -29,24 +29,42 @@ function pegarMensagemDec(){
   }
 }
 
-const elementoOculto = document.getElementById("decifrar");
-const botaoMostrar = document.getElementById("botaoMostrar");
-const gifContainer = document.getElementById("caixaDoGif")
+// const botaoMostrar = document.getElementById("botaoMostrar");
+// const formCifrar = document.getElementById("cifrar")
+// const formDescifrar = document.getElementById("decifrar");
+// const gifContainer = document.getElementById("caixaDoGif")
 
-botaoMostrar.addEventListener("click", function(){
-  //exibir o gif
-  gifContainer.style.display = "block";
-  botaoMostrar.style.display = "none";
+// botaoMostrar.addEventListener("click", function(){
+//   //exibir o gif
+//   formCifrar.style.display = "none";
+//   botaoMostrar.style.display = "none";
+//   gifContainer.style.display = "block";
 
-  const tempoExibiçãoGif = 3000;
 
-  setTimeout(function(){
+//   setTimeout(function(){
 
-    gifContainer.style.display = "none";
-    elementoOculto.style.display = "block";
+//     gifContainer.style.display = "none";
+//     formDescifrar.style.display = "block";
 
-    botaoMostrar.scrollIntoView({ behavior: "smooth" }); 
-  }, tempoExibiçãoGif);
+    
+//   }, 3000);
   
-});
+// });
+
+const trocaMetodo = document.querySelector('.trocaMetodo')
+
+trocaMetodo.addEventListener('click', function(){
+  const formCifrar = document.querySelector('#cifrar')
+  const gif = document.querySelector('.gifContainer')
+  const formDescifrar = document.querySelector('#decifrar')
+  
+  formCifrar.classList.toggle('oculto')
+  gif.classList.toggle('oculto')
+  
+  setTimeout(function(){
+    gif.classList.toggle('oculto')
+    formDescifrar.classList.toggle('oculto')
+  }, 3000)
+})
+
 
