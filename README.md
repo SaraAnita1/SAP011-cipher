@@ -10,10 +10,16 @@ tema: Codificando mensagens de corvos no universo de GOT
 
 - Como você acha que o produto que você está criando está resolvendo seus
   problemas?
-  R: Garantindo que a descrição das mensagens seja mantida uma vez que as quantidades de caracteres em deslocamento mudam de acordo com o horario que a pessoa encripta a mensagem. (Parte que pretendo fazer se conseguir descobrir como)
+  R: Garantindo que a descrição das mensagens seja mantida uma vez que as quantidades de caracteres em deslocamento muda de acordo com o que a pessoa altera.
 
 A seguir Imagem do primeiro protótipo do projeto:
 
   <img align="right" alt="Sara-pic" height="150" style="border-radius: 50px;" img src="https://cdn.discordapp.com/attachments/925377188402987058/1131745755737116682/image.png" />
 
-Como plano de Ação: na primeira sprint decidi garantir que o codigo funcione, agora nessa segunda vou me ater a deixar o projeto o mais proximo possivel do que imagine
+Como plano de Ação: na primeira sprint decidi garantir que o codigo funcione, agora nessa segunda vou me ater a deixar o projeto o mais proximo possivel do que imagine.
+
+Segunda Sprint:
+
+Finalizei a parte logica do projeto me atentando a deixar ele comentado e a deixar ele escrito de uma forma que se eu bater o olho eu entendo o que aconteceu ou qual a funcionalidade dele.
+
+ajustei o Layout ao que eu estava imaginando.
