@@ -7,6 +7,7 @@
 - [Sobre](#Sobre)
 - [Como usar](#como-usar)
 - [Tecnologias](#tecnologias)
+- [Gif](#Gif)
 <!--te-->
 
 <p align="center" id="#Sobre">
@@ -25,7 +26,7 @@
 
 A seguir Imagem do primeiro protótipo do projeto:
 
-  <img align="right" alt="Sara-pic" height="150" style="border-radius: 50px;" img src="https://cdn.discordapp.com/attachments/925377188402987058/1131745755737116682/image.png" />
+  <img align="right" alt="Prototipo do projeto" height="150" style="border-radius: 50px;" img src="https://cdn.discordapp.com/attachments/925377188402987058/1131745755737116682/image.png" />
 
 Como plano de Ação: na primeira sprint decidi garantir que o codigo funcione, agora nessa segunda vou me ater a deixar o projeto o mais proximo possivel do que imagine.
 
@@ -49,8 +50,16 @@ Basta clicar em enviar mensagem e digitar uma mensagem de A - Z em letras maiusc
 
 As Tecnologias utilizadas no decorrer desse projeto foram:
 
--HTML semantico.
--CSS semantico.
+-HTML semantico. <br>
+-CSS semantico. <br>
 -Javascript Vanilla.
 
 </p>
+
+<p align="center" id="Gif">
+
+# Gif
+
+Abaixo segue um gif com a exemplificação de como o projeto está.
+
+<img align="center" alt="Gif do Projeto em funcionamento" height="150" style="border-radius: 50px;" img src="https://media.discordapp.net/attachments/925377188402987058/1135306652761993346/Funcionamento-cifra.gif?width=871&height=468" />
