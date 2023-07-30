@@ -62,4 +62,4 @@ As Tecnologias utilizadas no decorrer desse projeto foram:
 
 Abaixo segue um gif com a exemplificação de como o projeto está.
 
-<img align="center" alt="Gif do Projeto em funcionamento" height="150" style="border-radius: 50px;" img src="/src/assets/Funcionamento-cifra.gif"/>
+![GIF animado](https://media.discordapp.net/attachments/925377188402987058/1135306652761993346/Funcionamento-cifra.gif?width=871&height=468)
