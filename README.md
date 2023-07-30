@@ -1,6 +1,17 @@
-Projeto - Cipher
+# Projeto - Cipher
 
-tema: Codificando mensagens de corvos no universo de GOT
+## tema: Codificando mensagens de corvos no universo de GOT
+
+<!--ts-->
+
+- [Sobre](#Sobre)
+- [Como usar](#como-usar)
+- [Tecnologias](#tecnologias)
+<!--te-->
+
+<p align="center" id="#Sobre">
+
+# Sobre
 
 - Quem são os principais usuários do produto?
   R: Os usuarios do produto são os personagens de GOT que precisam mandar mensagens para outros aliados.
@@ -22,4 +33,24 @@ Segunda Sprint:
 
 Finalizei a parte logica do projeto me atentando a deixar ele comentado e a deixar ele escrito de uma forma que se eu bater o olho eu entendo o que aconteceu ou qual a funcionalidade dele.
 
-ajustei o Layout ao que eu estava imaginando.
+ajustei o Layout ao que eu estava imaginando. </p>
+
+<p align = "center" id="como-usar">
+
+# como-usar
+
+Basta clicar em enviar mensagem e digitar uma mensagem de A - Z em letras maiusculas, ajustar o recuo desejado que começa em dois e clicar em codificar para que a mensagem seja encriptada, se o usuario desejar desencriptar basta clicar no botão, aguardar o gif e inserir a mensagem para que ela seja desencriptada.
+
+</p>
+
+<p align= "center" id="Tecnologias">
+
+# tecnologias
+
+As Tecnologias utilizadas no decorrer desse projeto foram:
+
+-HTML semantico.
+-CSS semantico.
+-Javascript Vanilla.
+
+</p>
