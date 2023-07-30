@@ -16,8 +16,10 @@ const cipher = {
       // o %26 está ali pra garantir que o looping fique entre as 26 letras do alfabeto
       // considerando que a letra a está na posição 0
 
-      if (charCode >= 65 && charCode <= 90 || charCode === 32) {
+      if (charCode >= 65 && charCode <= 90) {
         charCode = ((charCode - 65 + descolamento) % 26) + 65;
+      } else if (charCode === 32){
+        charCode = 32
       } else {
         mensagemValida = false;
         break;
@@ -28,7 +30,7 @@ const cipher = {
 
     // Verifica se a mensagem é válida antes de atribuí-la ao elemento HTML.
     if (!mensagemValida) {
-      throw new TypeError('Por favor, Insira um Caracter de A - Z', 'cipher.js', '25');
+      throw new TypeError('Por favor, Insira um Caracter de A - Z');
     }
 
     //mandar para o index
@@ -48,8 +50,10 @@ const cipher = {
 
     for (let i = 0; i < decoSemEspaco.length; i++) {
       let charCode = decoSemEspaco.charCodeAt(i);
-      if (charCode >= 65 && charCode <= 90 || charCode === 32) {
+      if (charCode >= 65 && charCode <= 90) {
         charCode = ((charCode + 65 - descolamento) % 26) + 65;
+      } else if (charCode === 32){
+        charCode = 32
       } else {
         mensagemVazia = false;
         break;
@@ -60,7 +64,7 @@ const cipher = {
 
     // Verifica se a mensagem foi decifrada corretamente antes de atribuí-la ao elemento HTML.
     if (!mensagemVazia) {
-      throw new TypeError('Por favor, Insira um Caracter de A - Z', 'cipher', '49');
+      throw new TypeError('Por favor, Insira um Caracter de A - Z');
     }
 
     // document.getElementById("mensagemDescifrada").textContent = mensagemDecifrada;
