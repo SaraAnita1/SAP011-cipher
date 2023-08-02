@@ -21,28 +21,28 @@
       </a>
     </header>
 
-    <label for="deslocamento">Deslocamento:</label>
-    <input type="number" id="deslocamento" min="1" max="50" value="2">
-   
-      <form id="cifrar">
-        <textarea id="mensagem" cols="30" rows="10" required></textarea> 
-        <button type="submit">Codificar</button>
-        <p id="mensagemCifrada"></p>
-      </form>
+   <main>
 
-        <form id="decifrar" class="oculto">
-          <textarea id="decodificando" cols="30" rows="10" required></textarea>
-          <button type="submit">Descodificar</button>
-          <p id="mensagemDescifrada"></p>
-        </form>
-    
-    <button class="trocaMetodo">Deseja decifrar?</button>
-
-    <div class="gifContainer oculto" id="caixaDoGif">
-        <img src="assets/aiPnrv.gif" alt="Gif animado de corvo">
+    <div class="des">
+      <label for="deslocamento">Deslocamento:</label>
+      <input type="number" id="deslocamento" min="1" max="50" value="2" />
     </div>
     
- 
+    <form class="cifrar">
+      <textarea id="mensagem" required></textarea>
+      <button type="submit">Codificar</button>
+      <p id="mensagemCifrada"></p>
+    </form>
+    
+    
+    <button class="trocaMetodo">Deseja Decifrar ?</button>
+    
+    <figure class="gifContainer oculto" id="caixaDoGif">
+      <img src="assets/aiPnrv.gif" alt="Gif animado de corvo" />
+      <figcaption>Loading . . . </figcaption>
+    </figure>
+
+   </main>
 
     <footer>
         <p>&copy; SaraAnita/LaboratoriaSap011</p>
