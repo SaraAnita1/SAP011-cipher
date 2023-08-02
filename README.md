@@ -62,4 +62,4 @@ As Tecnologias utilizadas no decorrer desse projeto foram:
 
 Abaixo segue um gif com a exemplificação de como o projeto está.
 
-![Texto alternativo](src/assets/Funcionamento-cifra.gif)
+![Texto alternativo](src/assets/Caesar-Cipher-Opera-2023-08-02-00-24-13.gif)
