@@ -5,13 +5,12 @@
 }
 
 body,
-input,
 button,
 textarea,
 label,
 a {
   font-family: "MedievalSharp", cursive;
-  color: #bb7212;
+  color: #eb982c;
 }
 
 body {
@@ -21,10 +20,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
+
 }
 
 header {
@@ -34,6 +30,14 @@ header {
   padding: 30px;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
 .navegacao a img {
   width: 40px;
 }
@@ -41,6 +45,7 @@ header {
 label {
   font-size: 30px;
   margin-top: 100px;
+  color:#eb982c;
 }
 
 #deslocamento{
@@ -74,6 +79,7 @@ textarea {
   font-size: 30px;
   padding: 8px;
   border: 2px solid #000;
+  resize: none;
 } 
 
 button{
@@ -88,13 +94,15 @@ button{
 }
 
 button:hover{
-  color: rgb(190, 18, 18);
-  border-color: rgb(190, 18, 18);
+  color: rgb(190, 26, 26);
+  border-color: rgb(116, 11, 11);
 }
 
 form p{
-  color: red;
+  color: rgb(190, 26, 26);
   font-size: 28px;
+  margin-bottom: 30px;
+  background-color: #a18054f5;;
 }
 
 footer {
@@ -106,6 +114,10 @@ footer {
   text-align: center;
 }
 
+figcaption{
+  text-align: center;
+  font-size: 30px;
+}
 .oculto{
   display: none;
 }
